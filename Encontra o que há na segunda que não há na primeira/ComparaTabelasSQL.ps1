@@ -52,12 +52,12 @@ ForEach ($File in $ToProcess){
 }
 
 #dados da tabela sql e da Database
-$SQLServer = "srv-sigma\sqlexpress"
-$SQLDBName = "FATURAS"
-$tableSchema = "dbo" 
+$SQLServer = "zzzzz"
+$SQLDBName = "XXXX"
+$tableSchema = "xxx" 
 $tableName = $sn
-$uid = "sa"
-$pwd = "srvsigma"
+$uid = "xxxx"
+$pwd = "xxxxxx"
 $secureStringPwd = $password | ConvertTo-SecureString -AsPlainText -Force 
 $creds = New-Object System.Management.Automation.PSCredential -ArgumentList $username, $secureStringPwd   
 $delimiter = ";"
