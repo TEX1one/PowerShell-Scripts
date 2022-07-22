@@ -25,6 +25,6 @@ $Body = "Colaborador(a), $($item.FirstName) $($item.LastName)
                      -to "<$($item.Email)>" `
                      -subject $Subject `
                      -body $Body `
-                     -Attachment "C:\scripts\conversor_xml_csv\doc_csv\LinhasDaTabela_teste.csv" -Encoding utf8 -smtpServer smtp.outlook.com -Port xxx -UseSsl -Credential $creds
+                     -Attachment "C:xxx\xxxx\xxxx" -Encoding utf8 -smtpServer smtp.outlook.com -Port xxx -UseSsl -Credential $creds
 
 }
