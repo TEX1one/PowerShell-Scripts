@@ -1,0 +1,4 @@
+Z:\sigmaodbc\_DOCS_CTA\INVOICES_TEMP\IN\
+Z:\sigmaodbc\_DOCS_CTA\INVOICES_TEMP\
+xmlCsx
+XmlCsv
