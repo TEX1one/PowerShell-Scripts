@@ -13,18 +13,12 @@ foreach($item in $Emails){
 $Subject = "Credenciais de acesso ao portal do colaborador (número: $($item.Nr))"
 
 $Body = "Colaborador(a), $($item.FirstName) $($item.LastName)
-
-Enviamos o seu dados de acesso ao portal do colaborador para que possa gerir a sua a assiduidade (ferias e faltas) 
-Endereço: http://xxxxxxxxxxxxxxxx.pt`
-Nome de utilizador: $($item.Sam)
-Palavra-Passe: $($item.Password)  
-Para qualquer questão, contacte a Natlhalie Fajardo pelos contactos normais: 
-Email: xxxx.xxx@xxx.pt 
-Ext: xxxx
-
-Com os melhores cumprimentos, 
-A Equipa da Informática do Município de Pombal 
-[Assinatura e-mail]"
+#Body text here!!!!
+#Nome de utilizador: $($item.Sam)
+#Palavra-Passe: $($item.Password)  
+#Com os melhores cumprimentos, 
+#A Equipa da Informática do Município de Pombal 
+#[Assinatura e-mail]"
 
 #Enviar Email
     Send-MailMessage -from "<$($Email)>" `
