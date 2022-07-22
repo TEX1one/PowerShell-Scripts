@@ -15,12 +15,12 @@ $Subject = "Credenciais de acesso ao portal do colaborador (número: $($item.Nr)
 $Body = "Colaborador(a), $($item.FirstName) $($item.LastName)
 
 Enviamos o seu dados de acesso ao portal do colaborador para que possa gerir a sua a assiduidade (ferias e faltas) 
-Endereço: http://portaldocolaborador.cm-pombal.pt`
+Endereço: http://xxxxxxxxxxxxxxxx.pt`
 Nome de utilizador: $($item.Sam)
 Palavra-Passe: $($item.Password)  
 Para qualquer questão, contacte a Natlhalie Fajardo pelos contactos normais: 
-Email: nathalie.fajarddo@cm-pombal.pt 
-Ext: 1416 
+Email: xxxx.xxx@xxx.pt 
+Ext: xxxx
 
 Com os melhores cumprimentos, 
 A Equipa da Informática do Município de Pombal 
@@ -31,6 +31,6 @@ A Equipa da Informática do Município de Pombal
                      -to "<$($item.Email)>" `
                      -subject $Subject `
                      -body $Body `
-                     -Attachment "C:\scripts\conversor_xml_csv\doc_csv\LinhasDaTabela_teste.csv" -Encoding utf8 -smtpServer smtp.outlook.com -Port 587 -UseSsl -Credential $creds
+                     -Attachment "C:\scripts\conversor_xml_csv\doc_csv\LinhasDaTabela_teste.csv" -Encoding utf8 -smtpServer smtp.outlook.com -Port xxx -UseSsl -Credential $creds
 
 }
