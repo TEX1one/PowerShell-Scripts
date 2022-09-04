@@ -1,6 +1,6 @@
 # PowerShell-Scripts
 
-1 - Used to create user in Active Directory using a csv file;
+1 - Used to create users in Active Directory using a csv file;
 
 2 - Used to find information that is present in the second table that does not exist in the first;
 
